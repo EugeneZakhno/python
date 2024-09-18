@@ -1,5 +1,10 @@
 from array import array
-
+"""   
+multiline comment
+name = "Eugen"
+full_name = "Eugene Zakhno"
+PI = 3.14
+"""
 name = "Eugen"
 full_name = "Eugene Zakhno"
 PI = 3.14
@@ -10,6 +15,14 @@ numbers = []
 
 brands: str = "Goodby"
 isAdult: bool = False
+
+
+brandz = 'Engaged'
+print(brandz.upper())
+print(brandz.replace('E','33'))
+print(len(brandz))
+print(brandz == "german")
+print(brandz == "Engaged")
 
 def hello() -> float:
     return 1.2
