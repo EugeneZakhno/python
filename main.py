@@ -1,3 +1,4 @@
+import email
 from array import array
 """   
 multiline comment
@@ -23,6 +24,15 @@ print(brandz.replace('E','33'))
 print(len(brandz))
 print(brandz == "german")
 print(brandz == "Engaged")
+print("gage"not in brandz)
+print("gage" in brandz)
+
+
+text = """ 
+       'dkjfhvb ' \    
+          'djfhvbdf '\
+    "jdhfjhdgb" 
+    """
 
 def hello() -> float:
     return 1.2
