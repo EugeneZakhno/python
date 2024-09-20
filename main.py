@@ -29,9 +29,9 @@ print("gage" in brandz)
 
 
 text = """ 
-       'dkjfhvb ' \    
-          'djfhvbdf '\
-    "jdhfjhdgb" 
+       'dkjfhvb '  
+       'djfhvbdf ' 
+       "jdhfjhdgb" 
     """
 
 def hello() -> float:
